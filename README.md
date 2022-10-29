@@ -70,7 +70,7 @@ Both datasets contain three sets of images, and a metadata file:
   - `3d_coords [scene_id, object_id, 3]`: The world coordinates of each object's center. Values for
     non-existing objects and the background (`object_id == 0`) are left at zero.
   - Additional object properties follow the same format (`color`, `material`, `pixel_coords`,
-    `rotation`, `shape`, `size, `visibility` for CLEVR3D, `rotation`, `shape`, `shape_file` for
+    `rotation`, `shape`, `size`, `visibility` for CLEVR3D, `rotation`, `shape`, `shape_file` for
     MSN).
 
 
