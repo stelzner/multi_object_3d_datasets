@@ -58,7 +58,7 @@ Both datasets contain three sets of images, and a metadata file:
   differences in Blender versions. In either case, the respective value is obtained by converting
   the image values to the range `[0, 1]`, and multiplying by the scaling factor `40.0`. This logic
   is implemented
-  (here)[https://github.com/stelzner/multi_object_3d_datasets/blob/a2faeeb0307f82c3bee8ede25019be970e18765c/loading/dataset.py#L86].
+  [here](https://github.com/stelzner/multi_object_3d_datasets/blob/a2faeeb0307f82c3bee8ede25019be970e18765c/loading/dataset.py#L86).
 * `masks/mask_{scene_id}_{view_id}.png`: 8 bit B/W `.png` images providing instance segmentation
   masks. A value of zero represents a pixel which belongs to the background, a positive value
   indicates that it is part of the respective object.
