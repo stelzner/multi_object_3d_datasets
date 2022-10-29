@@ -2,6 +2,7 @@ This repository contains code for generating and loading the multi-object 3D dat
 the [ObSuRF project](https://stelzner.github.io/obsurf/): CLEVR3D and Multishapenet. It conists of
 three components: a dataset loader for both datasets, and a generator for each one.
 
+<img src="overview.png" width="800px">
 
 ## Loading
 The file `loading/dataset.py` contains a PyTorch 1.7 dataset class which may be used to load the datasets. It utilizes the `imageio` package for reading images.
