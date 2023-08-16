@@ -16,7 +16,7 @@ The scene layouts are specified in the metadata file `clevr3d/completed_metadata
 Based on it, the full dataset may be rendered as follows:
 ```
 cd clevr3d
-blender_2-78c --background --python gen_clevr.py -- clevr3d/completed_metadata.npz --use_gpu
+blender_2-78c --background --python gen_clevr.py -- completed_metadata.npz --use_gpu
 --render_images --render_depths --render_masks
 ```
 
